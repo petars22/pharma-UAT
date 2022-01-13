@@ -1,0 +1,77 @@
+#navigation {
+    border-bottom: 1px solid rgba(255, 255, 255, .1);
+    animation: fadeInTop 1s;
+}
+
+#upper-nav {
+    padding: 10px 30px;
+    margin: 0px auto;
+    border-bottom: 1px solid #b8b7b7;
+    box-shadow: rgb(0 0 0 / 15%) 3.95px 0.95px 3.6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#upper-nav #logo {
+    width: 6vw;
+    height: 3vw;
+}
+
+#upper-nav #logo img {
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
+#upper-nav #indications {
+    width: 10vw;
+}
+
+#upper-nav #indications .accordion-toggle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#upper-nav #user-info .accordion-toggle>* {
+    margin: 0 3px;
+}
+
+#upper-nav #user-info-dropdown,
+#upper-nav #indications-dropdown {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    top: 100%;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
+    border-top: 1px solid #b8b7b7;
+    position: absolute;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+#upper-nav #user-info-dropdown>* {
+    width: 100%;
+}
+
+#upper-nav #user-info-dropdown>*:not(:last-child) {
+    border-bottom: 1px solid #b8b7b7;
+}
+
+#upper-nav #user-info-dropdown>*:hover {
+    color: red;
+    border-color: red;
+    cursor: pointer;
+}
+
+#upper-nav #user-info-dropdown .log-out {
+    border: none;
+    background-color: transparent;
+    z-index: 100;
+}
+
+#bottom-nav {
+    padding: 10px 30px 0;
+}

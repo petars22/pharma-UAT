@@ -1,0 +1,71 @@
+#knowledge-repository #search-container {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#knowledge-repository #search-container input {
+    width: 30vw;
+    padding: 10px 5px;
+    font-size: 16px;
+    border-radius: 5px 0px 0px 5px;
+}
+
+#knowledge-repository #search-container #search-icon {
+    padding: 11px 15px;
+    font-size: 16px;
+    border-radius: 0px 5px 5px 0px;
+    display: block;
+    background-color: #4a77f4;
+    cursor: pointer;
+}
+
+#knowledge-repository #search-container #search-icon i {
+    color: #ffffff;
+}
+
+#knowledge-repository .table-column.date {
+    width: 7%;
+    max-width: 7%;
+}
+
+#knowledge-repository .table-column.agency-country,
+#knowledge-repository .table-column.category {
+    max-width: 10%;
+}
+
+
+#knowledge-repository .table-row:not(#add-answer) .table-column.sources,
+#knowledge-repository .table-row:not(#add-answer) .table-column.similar-question {
+    flex-wrap: wrap;   
+}
+
+#knowledge-repository .table-column.sources p,
+#knowledge-repository .table-column.similar-question p,
+#knowledge-repository .table-column.title p {
+    width: 100%;
+    min-width: 100%;
+    color: #4a77f4;
+    cursor: pointer;
+    text-align: center;
+}
+
+#knowledge-repository .table-column .input-container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#knowledge-repository .custom-select {
+    width: 100%;
+}
+
+#knowledge-repository #answer-info .table-column.sources {
+    padding: 0;
+}
+
+#knowledge-repository #answer-info .table-column.sources p {
+    text-align: left;
+    margin-bottom: 5px;
+}
