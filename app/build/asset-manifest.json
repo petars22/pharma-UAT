@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/pharma-app/static/css/main.a4a376cd.chunk.css",
+    "main.js": "/pharma-app/static/js/main.a90d4d0c.chunk.js",
+    "main.js.map": "/pharma-app/static/js/main.a90d4d0c.chunk.js.map",
+    "runtime-main.js": "/pharma-app/static/js/runtime-main.12664440.js",
+    "runtime-main.js.map": "/pharma-app/static/js/runtime-main.12664440.js.map",
+    "static/js/2.2d2c1b62.chunk.js": "/pharma-app/static/js/2.2d2c1b62.chunk.js",
+    "static/js/2.2d2c1b62.chunk.js.map": "/pharma-app/static/js/2.2d2c1b62.chunk.js.map",
+    "static/js/3.864cd487.chunk.js": "/pharma-app/static/js/3.864cd487.chunk.js",
+    "static/js/3.864cd487.chunk.js.map": "/pharma-app/static/js/3.864cd487.chunk.js.map",
+    "index.html": "/pharma-app/index.html",
+    "static/css/main.a4a376cd.chunk.css.map": "/pharma-app/static/css/main.a4a376cd.chunk.css.map",
+    "static/js/2.2d2c1b62.chunk.js.LICENSE.txt": "/pharma-app/static/js/2.2d2c1b62.chunk.js.LICENSE.txt",
+    "static/media/Login.css": "/pharma-app/static/media/login-bg.391086b0.png",
+    "static/media/logo-placeholder.a5cfb65a.jpg": "/pharma-app/static/media/logo-placeholder.a5cfb65a.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.12664440.js",
+    "static/js/2.2d2c1b62.chunk.js",
+    "static/css/main.a4a376cd.chunk.css",
+    "static/js/main.a90d4d0c.chunk.js"
+  ]
+}
